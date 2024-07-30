@@ -1,0 +1,118 @@
+.link-login, .link-busca {
+    font-weight: bold; /*fonte como negrito */
+    text-decoration: none; /* Remove o sublinhado*/
+    color: #333;
+}
+
+.blog-logo {
+    font-size: 24px; /*tamanho da fonte*/
+    font-weight: bold; /*fonte como negrito */
+}
+
+/* Estilo para os elementos de cabeçalho dos modais */
+.modal-header {
+    background-color: #021d61;
+    color: #fff;
+}
+
+/* Estilo para o rodapé dos modais */
+.modal-footer {
+    background-color: #021d61;
+}
+
+.botao-registrar {
+    background-color: #007bff;
+    color: #ffff;
+    border: none; /* Remove a borda*/
+}
+
+.botao-registrar:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para a barra de navegação (navbar) */
+.navbar {
+    background-color: #f8f9fa;
+}
+
+
+.navbar-brand {
+    font-weight: bold; /* negrito */
+    margin-left: 30px; /* margem esquerda */
+}
+
+.nav-item {
+    margin-right: 30px; /* margem direita */
+    margin-left: 30px; /* margem esquerda */
+}
+
+/* cabeçalho */
+#acessibilidade {
+    display: flex; /* para alinhar os itens */
+    justify-content: flex-end; /* Alinha os itens à direita do contêiner */
+    align-items: center; /* Centraliza verticalmente os itens */
+}
+
+#acessibilidade a {
+    margin-left: 10px; /* margem à esquerda entre os links */
+}
+
+/*telas menores*/
+@media (max-width: 768px) {
+    /* Altera a direção do flexbox para coluna e alinha os itens à direita */
+    #acessibilidade {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    /* Remove a margem à esquerda dos links e adiciona margem superior entre eles */
+    #acessibilidade a {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #fff;
+    color: #021d61; /* cor do texto*/
+    text-align: center; /* Centraliza*/
+    padding: 20px 0; /* Adiciona preenchimento de 20 pixels na parte superior e inferior */
+}
+
+.desenvolvedores {
+    display: flex; /* Usa o modelo flexbox para organizar os elementos */
+    justify-content: center; /* Centraliza os elementos horizontalmente */
+}
+
+.desenvolvedor {
+    margin: 0 10px; /* Adiciona margem horizontal de 10 pixels (esquerda e direita) */
+}
+
+.desenvolvedor a {
+    text-decoration: none; /* Remove a decoração de texto (sublinhado) */
+    color: #021d61; /* Define a cor do texto como azul escuro */
+    font-weight: bold; /* Define o peso da fonte como negrito */
+}
+
+/*quando passar o mouse*/
+.desenvolvedor a:hover {
+    text-decoration: underline; /*sublinhado */
+}
+
+/* git */
+.git a {
+    text-decoration: none; /* Remove o sublinhado */
+    color: #007bff; 
+    margin: 5px; /* margem ao redor dos links*/
+}
+
+/* quando passar o mouse */
+.git a:hover {
+    text-decoration: underline; /*sublinhado */
+}
+/* botão fechar modal */
+.btn-close {
+    background-color: #fff;
+}
+

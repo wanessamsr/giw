@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Semantic UI</title>
+  <!-- incluindo as bibliotecas do Semantic UI -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.2/semantic.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  
+  <!-- Estilos personalizados -->
+  <style>
+   body {
+      background-color: #fcfcfc;
+    }
+    .header.item {
+      font-size: 1.5rem;
+    }
+    .ui.huge.primary.button {
+      background-color: #e88a57;
+      color: #262525;
+    }
+    .ui.cards .card {
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .ui.inverted.vertical.segment {
+      background-image: url('http://www.binaryalembic.com/wp-content/uploads/2013/12/Nature-444-photos-1600x400.jpg');
+      background-size: cover;
+      background-position: center;
+      color: #ffffff;
+      text-align: center;
+    }
+    .ui.inverted.vertical.segment h1 {
+      font-size: 3rem;
+    }
+    .ui.inverted.vertical.segment p {
+      font-size: 1.2rem;
+    }
+    .ui.inverted.vertical.segment .primary.button {
+      font-size: 1.5rem;
+    }
+    .ui.inverted.vertical.segment .primary.button:hover {
+      background-color: #1678c2;
+    }
+    .ui.inverted.vertical.segment .secondary.button {
+      background-color: #e74c3c;
+      color: #ffffff;
+      font-size: 1.5rem;
+    }
+    .ui.inverted.vertical.segment .secondary.button:hover {
+      background-color: #ff4848;
+    }
+    .ui.inverted.vertical.segment .ui.container {
+      padding-top: 6rem;
+      padding-bottom: 6rem;
+    }
+    .ui.inverted.vertical.segment .ui.cards {
+      margin-top: 3rem;
+    }
+    .ui.inverted.vertical.segment .ui.cards .card .content .header {
+      font-size: 1.5rem;
+    }
+    .ui.inverted.vertical.segment .ui.cards .card .content .description {
+      font-size: 1.2rem;
+    }
+    .ui.inverted.vertical.segment .ui.container .ui.inverted.vertical.segment {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 3rem 0;
+    }
+    .ui.inverted.vertical.segment .ui.container .ui.inverted.vertical.segment p {
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <!-- Menu de Navegação -->
+  <div class="ui fixed menu">
+    <div class="ui container">
+      <a href="#" class="header item">Página Inicial</a>
+      <a href="#" class="item">Serviços</a>
+      <div class="right menu">
+        <a href="#" class="item">Contato</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Cabeçalho -->
+  <div class="ui inverted vertical center aligned segment">
+    <div class="ui text container">
+      <h1 class="ui inverted header">Exemplo 3: Utilizando Semantic Ui</h1>
+      <p>Um framework capaz de facilitar sua vida!.</p>
+      <a href="#" class="ui huge primary button">Comece Agora</a>
+    </div>
+  </div>
+
+  <!-- Seção de Conteúdo -->
+  <div class="ui container">
+    <h2 class="ui header">Vantagens do framework</h2>
+    <div class="ui three stackable cards">
+      <div class="card">
+        <div class="content">
+          <div class="header"><strong>Vantagem 1</strong></div>
+          <div class="description">Sintaxe Clara e Intuitiva. Você pode personalizar facilmente o estilo dos componentes do 
+            Semantic UI para se adequar ao design do seu projeto.</div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="content">
+          <div class="header"><strong>Vantagem 2</strong></div>
+          <div class="description">Responsividade Integrada: O Semantic UI possui um sistema de grade responsiva que permite criar
+             layouts flexíveis que se adaptam a diferentes tamanhos de tela, tornando seus projetos compatíveis com dispositivos 
+             móveis e desktops.</div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="content">
+          <div class="header"><strong>Vantagem 3</strong></div>
+          <div class="description">Comunidade Ativa: O Semantic UI possui uma comunidade ativa de desenvolvedores que contribuem 
+            com atualizações, correções de bugs e plugins, tornando-o uma escolha sólida para o desenvolvimento front-end.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Rodapé -->
+  <div class="ui inverted vertical segment">
+    <div class="ui center aligned container">
+      <p>&copy; 2023 Exemplo 3. Alexandre, Isabela e Wanessa.</p>
+    </div>
+  </div>
+</body>
+</html>
